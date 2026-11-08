@@ -1,5 +1,15 @@
-# Reflection answers go here at the end (we'll write them last)
-
+# Reflection 1:
+# I would use .get() when a missing key is normal, like an optional phone
+# number or email on a customer record, because the program can use a default
+# and keep running. I would use bracket notation when the key must exist, like
+# a customer ID, because a KeyError shows me right away that the data is bad.
+# My rule of thumb is .get() for optional data and brackets for required data.
+#
+# Reflection 2:
+# Exercise 8 reminds me of a SUMIF or a PivotTable that totals sales by region.
+# The Python version is more useful for large datasets because it can handle
+# more rows than Excel comfortably can. It is also repeatable, so I can run the
+# same script on next month's file instead of rebuilding the summary by hand.
 # ----- Exercise 1: One customer -----
 print("=== Exercise 1 ===")
 
